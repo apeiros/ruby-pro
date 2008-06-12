@@ -1,0 +1,87 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+}
+div#head {
+	margin: 0em -2em 0em -2em;
+	padding: 1.2em 2em 1.2em 2em;
+	color: #ffffff;
+	background-color: #ee0000;
+	border-bottom: 1px solid #000000;
+}
+div#head img {
+	float: right;
+	width: 3em;
+	height: 3em;
+}
+div#navigation {
+	background-color: #ffcccc;
+	margin: 0em -2em 2em -2em;
+	padding: 0 2em 0 2em;
+	height: 2.2em;
+	clear: both;
+	border-bottom: 1px solid #000000;
+}
+div#navigation ul
+{
+	display: block;
+	list-style-type: none;
+	margin: 0 auto 0 auto;
+	width: 45em;
+}
+div#navigation ul li {
+	float: left;
+	padding: 0.4em 0.8em 0.4em 0.8em;
+}
+div#navigation ul li:hover {
+	background-color: #ffffff;
+}
+div#navigation ul li a {
+	font-weight: bold;
+	font-size: 1.2em;
+	color: #ff0000;
+}
+
+.block {
+	margin: 0 auto 1.2em auto;
+	width: 45em;
+}
+h1 {
+	font-size: 2.5em;
+	font-family: serif;
+	font-weight: bold;
+	margin: 0 auto 0.2em auto;
+	width: 18em;
+}
+h2 {
+	font-size: 1.2em;
+	margin: 0 auto 0 auto;
+	width: 37.5em;
+}
+h3 {
+	color: #cc0000;
+	margin-bottom: 0.5em;
+}
+p {
+	margin-bottom: 0.2em;
+	text-align: justify;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+ul {
+	padding-left: 1.6em;
+}
+dt {
+	font-weight: bold;
+}
+dd {
+	padding-left: 1em;
+}
